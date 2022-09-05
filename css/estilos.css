@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@400;900&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#btn-iniciar,
+#btn-pausar,
+#btn-detener {
+    background-color: red;
+    border: 3px solid rgb(201, 0, 0);
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+#btn-iniciar:hover,
+#btn-pausar:hover,
+#btn-detener:hover {
+    background-color: antiquewhite;
+    border: 3px solid rgb(197, 197, 197);
+    color: red;
+}
